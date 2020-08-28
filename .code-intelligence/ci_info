@@ -290,6 +290,15 @@
   "projectEnvironment": {
     "dockerBuild": {
       "name": "cifuzz/builders:maven"
+      "auth": {
+
+      }
+    }
+    "dockerRun": {
+      "name": "cifuzz/builders:maven",
+      "auth": {
+
+      }
     }
   }
 }
