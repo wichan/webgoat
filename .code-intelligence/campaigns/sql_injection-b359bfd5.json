@@ -1,0 +1,18 @@
+{
+  "name": "sql_injection-b359bfd5",
+  "displayName": "default_campaign",
+  "maxRunTime": "1800s",
+  "fuzzTargets": [
+    "sql_injection-5b4b5092"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "JAVA_LIBFUZZER",
+      "numberOfJobs": 1
+    },
+    {
+      "engine": "ZAP",
+      "numberOfJobs": 1
+    }
+  ]
+}
