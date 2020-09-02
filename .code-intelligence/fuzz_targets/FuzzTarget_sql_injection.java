@@ -46,15 +46,21 @@ public class FuzzTarget_sql_injection {
     }
 
     public static void main(String[] fuzzerArgs) {
+        String webControllerDBPath = null;
+        for (String arg : fuzzerArgs) {
+            if (arg.startsWith("--web-controller-db=")) {
+                webControllerDBPath = arg.replace("--web-controller-db=", "");
+            }
+        }
         fuzzerInitialize(fuzzerArgs);
-        if (fuzzerArgs.length > 0) {
+        if (webControllerDBPath != null) {
             try {
-                EndpointDetection.listEndpointsFromContext(globalWebCtx, fuzzerArgs[0]);
+                EndpointDetection.listEndpointsFromContext(globalWebCtx, webControllerDBPath);
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            fuzzerTearDown();
         }
-        fuzzerTearDown();
     }
 
     public static void fuzzerTearDown() {
