@@ -1,5 +1,5 @@
 {
-  "name": "projects/WebGoat-417e314b74cf0a2b",
+  "name": "projects/webgoat-4d79dbd8",
   "displayName": "WebGoat",
   "buildScriptContent": "#!/bin/bash -eu\n# Here you can provide a script to build your project. Here you should provide \n# the steps as you would normally build your code. The CI security suite will \n# then automatically perform all needed adjustments necessary to build the fuzzers\n# based on the provided configurations.\n\nmvn clean package -DskipTests",
   "details": {
