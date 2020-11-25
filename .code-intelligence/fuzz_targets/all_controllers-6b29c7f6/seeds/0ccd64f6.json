@@ -1,0 +1,19 @@
+{
+  "name": "0ccd64f6",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/cookie.mvc",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1191021931"
+      }
+    ]
+  }
+}

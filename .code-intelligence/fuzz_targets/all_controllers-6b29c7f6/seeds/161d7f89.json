@@ -1,0 +1,19 @@
+{
+  "name": "161d7f89",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/SSRF/task1?url=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "2021924621"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "d4dda20a",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/welcome.mvc",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-15712946"
+      }
+    ]
+  }
+}

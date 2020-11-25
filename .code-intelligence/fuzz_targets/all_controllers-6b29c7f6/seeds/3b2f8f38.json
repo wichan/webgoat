@@ -1,0 +1,19 @@
+{
+  "name": "3b2f8f38",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/JWT/votings",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-264196793"
+      }
+    ]
+  }
+}

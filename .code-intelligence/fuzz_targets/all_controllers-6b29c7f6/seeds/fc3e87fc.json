@@ -1,0 +1,19 @@
+{
+  "name": "fc3e87fc",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/session.mvc",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1516449294"
+      }
+    ]
+  }
+}

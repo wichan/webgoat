@@ -1,0 +1,19 @@
+{
+  "name": "28d511e1",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/challenge/6?username_login=%FUZZ%\u0026password_login=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "4533449"
+      }
+    ]
+  }
+}

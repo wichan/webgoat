@@ -1,0 +1,19 @@
+{
+  "name": "2d1a0b36",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/csrf/basic-get-flag",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "1067740092"
+      }
+    ]
+  }
+}

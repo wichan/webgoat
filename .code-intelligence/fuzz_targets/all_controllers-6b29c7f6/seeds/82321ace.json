@@ -1,0 +1,19 @@
+{
+  "name": "82321ace",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/challenge/7/reset-password/%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "185585117"
+      }
+    ]
+  }
+}

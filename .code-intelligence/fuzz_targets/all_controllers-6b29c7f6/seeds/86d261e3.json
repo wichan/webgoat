@@ -1,0 +1,19 @@
+{
+  "name": "86d261e3",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/xxe/content-type",
+        "headers": {
+        },
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "isFixed": false,
+        "webControllerId": "823992136"
+      }
+    ]
+  }
+}

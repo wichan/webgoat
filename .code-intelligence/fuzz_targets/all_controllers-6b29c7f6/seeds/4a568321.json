@@ -1,0 +1,19 @@
+{
+  "name": "4a568321",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/PasswordReset/questions?json=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1246819991"
+      }
+    ]
+  }
+}

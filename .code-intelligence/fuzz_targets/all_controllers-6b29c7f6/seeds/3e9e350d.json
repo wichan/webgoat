@@ -1,0 +1,19 @@
+{
+  "name": "3e9e350d",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/WebWolf/mail?uniqueCode=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "463736915"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "8df589b8",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/ChromeDevTools/network?networkNum=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "2097240670"
+      }
+    ]
+  }
+}

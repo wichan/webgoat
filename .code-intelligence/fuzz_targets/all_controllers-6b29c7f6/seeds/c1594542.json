@@ -1,0 +1,19 @@
+{
+  "name": "c1594542",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/lessoninfo.mvc",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1803161321"
+      }
+    ]
+  }
+}

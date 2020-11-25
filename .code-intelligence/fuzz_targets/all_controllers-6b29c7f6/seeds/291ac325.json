@@ -1,0 +1,19 @@
+{
+  "name": "291ac325",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/SecurePasswords/assignment?password=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-796752950"
+      }
+    ]
+  }
+}

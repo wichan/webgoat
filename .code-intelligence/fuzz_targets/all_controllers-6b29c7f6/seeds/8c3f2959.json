@@ -1,0 +1,19 @@
+{
+  "name": "8c3f2959",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/JWT/votings/%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1346123261"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "097edd09",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/SqlInjectionMitigations/attack10a?field1=%FUZZ%\u0026field2=%FUZZ%\u0026field3=%FUZZ%\u0026field4=%FUZZ%\u0026field5=%FUZZ%\u0026field6=%FUZZ%\u0026field7=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "1354116214"
+      }
+    ]
+  }
+}

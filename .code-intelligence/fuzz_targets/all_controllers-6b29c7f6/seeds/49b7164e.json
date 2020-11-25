@@ -1,0 +1,19 @@
+{
+  "name": "49b7164e",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/HttpBasics/attack1?person=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "1566269898"
+      }
+    ]
+  }
+}

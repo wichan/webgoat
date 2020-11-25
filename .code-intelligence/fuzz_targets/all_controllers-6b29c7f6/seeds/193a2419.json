@@ -1,0 +1,19 @@
+{
+  "name": "193a2419",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/xxe/simple",
+        "headers": {
+        },
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "isFixed": false,
+        "webControllerId": "197800058"
+      }
+    ]
+  }
+}

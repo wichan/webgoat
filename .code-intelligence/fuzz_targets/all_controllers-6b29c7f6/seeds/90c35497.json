@@ -1,0 +1,19 @@
+{
+  "name": "90c35497",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "PUT",
+        "uri": "/challenge/6?username_reg=%FUZZ%\u0026email_reg=%FUZZ%\u0026password_reg=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1311882766"
+      }
+    ]
+  }
+}

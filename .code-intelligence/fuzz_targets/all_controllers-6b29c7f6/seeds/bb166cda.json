@@ -1,0 +1,19 @@
+{
+  "name": "bb166cda",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/PasswordReset/reset/change-password",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1640104098"
+      }
+    ]
+  }
+}

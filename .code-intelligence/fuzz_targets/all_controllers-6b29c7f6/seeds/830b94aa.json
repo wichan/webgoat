@@ -1,0 +1,19 @@
+{
+  "name": "830b94aa",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/attack",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-164901629"
+      }
+    ]
+  }
+}

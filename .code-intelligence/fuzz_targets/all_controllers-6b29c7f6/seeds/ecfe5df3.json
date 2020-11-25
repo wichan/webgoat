@@ -1,0 +1,19 @@
+{
+  "name": "ecfe5df3",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/ChromeDevTools/dummy?successMessage=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-331353137"
+      }
+    ]
+  }
+}

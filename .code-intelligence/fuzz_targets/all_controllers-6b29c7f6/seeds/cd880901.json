@@ -1,0 +1,19 @@
+{
+  "name": "cd880901",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/PasswordReset/ForgotPassword/create-password-reset-link?email=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-175965066"
+      }
+    ]
+  }
+}

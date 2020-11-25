@@ -1,0 +1,19 @@
+{
+  "name": "25b917da",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/CrossSiteScripting/phone-home-xss?param1=%FUZZ%\u0026param2=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-955180326"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "111932f1",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/SqlInjectionAdvanced/quiz",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "865263857"
+      }
+    ]
+  }
+}

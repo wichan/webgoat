@@ -1,0 +1,19 @@
+{
+  "name": "969a207e",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/challenge/7/.git",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "600672229"
+      }
+    ]
+  }
+}

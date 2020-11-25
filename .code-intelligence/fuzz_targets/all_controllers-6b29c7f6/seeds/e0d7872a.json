@@ -1,0 +1,19 @@
+{
+  "name": "e0d7872a",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/register.mvc",
+        "headers": {
+        },
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "isFixed": false,
+        "webControllerId": "382221417"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "90d672f9",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/labels.mvc?lang=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "438602878"
+      }
+    ]
+  }
+}

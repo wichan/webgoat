@@ -1,0 +1,19 @@
+{
+  "name": "abfcb601",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/scoreboard-data",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-987852373"
+      }
+    ]
+  }
+}

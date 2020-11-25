@@ -1,0 +1,19 @@
+{
+  "name": "ffbcc708",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/SqlInjection/attack8?name=%FUZZ%\u0026auth_tan=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1640116168"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "3783e203",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/csrf/confirm-flag-1",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-490961783"
+      }
+    ]
+  }
+}

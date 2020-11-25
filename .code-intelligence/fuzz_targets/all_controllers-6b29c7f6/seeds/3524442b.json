@@ -1,0 +1,19 @@
+{
+  "name": "3524442b",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/clientSideFiltering/attack1?answer=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "29045133"
+      }
+    ]
+  }
+}

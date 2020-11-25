@@ -1,0 +1,19 @@
+{
+  "name": "244cad7d",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/challenge/8/votes/average",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "24086897"
+      }
+    ]
+  }
+}

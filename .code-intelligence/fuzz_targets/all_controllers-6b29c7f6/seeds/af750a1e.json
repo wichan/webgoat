@@ -1,0 +1,19 @@
+{
+  "name": "af750a1e",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/lessonoverview.mvc",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1904133886"
+      }
+    ]
+  }
+}

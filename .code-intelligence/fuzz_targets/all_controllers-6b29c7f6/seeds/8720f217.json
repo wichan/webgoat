@@ -1,0 +1,19 @@
+{
+  "name": "8720f217",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/CrossSiteScripting/attack1?answer_xss_1=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1494777911"
+      }
+    ]
+  }
+}

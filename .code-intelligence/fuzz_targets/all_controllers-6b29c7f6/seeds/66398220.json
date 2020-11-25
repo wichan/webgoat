@@ -1,0 +1,19 @@
+{
+  "name": "66398220",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/access-control/user-hash",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "1231482209"
+      }
+    ]
+  }
+}

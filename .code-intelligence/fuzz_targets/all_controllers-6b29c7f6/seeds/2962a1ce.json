@@ -1,0 +1,19 @@
+{
+  "name": "2962a1ce",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/JWT/refresh/newToken",
+        "headers": {
+        },
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "isFixed": false,
+        "webControllerId": "-976102772"
+      }
+    ]
+  }
+}

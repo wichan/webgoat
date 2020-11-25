@@ -1,0 +1,19 @@
+{
+  "name": "2ef7af12",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/SqlInjection/attack4?query=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1547951463"
+      }
+    ]
+  }
+}

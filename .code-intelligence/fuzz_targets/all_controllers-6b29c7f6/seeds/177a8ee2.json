@@ -1,0 +1,19 @@
+{
+  "name": "177a8ee2",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/csrf/feedback?confirmFlagVal=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "1190182496"
+      }
+    ]
+  }
+}

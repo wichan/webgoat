@@ -1,0 +1,19 @@
+{
+  "name": "6ab022c2",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/xxe/blind",
+        "headers": {
+        },
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "isFixed": false,
+        "webControllerId": "-1084547901"
+      }
+    ]
+  }
+}

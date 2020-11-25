@@ -1,0 +1,19 @@
+{
+  "name": "87aaef0d",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/InsecureDeserialization/task?token=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-391147892"
+      }
+    ]
+  }
+}

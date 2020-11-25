@@ -1,0 +1,19 @@
+{
+  "name": "fbde52da",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/JWT/final/follow/%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-2103135856"
+      }
+    ]
+  }
+}

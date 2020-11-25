@@ -1,0 +1,19 @@
+{
+  "name": "b6bd8dac",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/lessonprogress.mvc",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "827835366"
+      }
+    ]
+  }
+}

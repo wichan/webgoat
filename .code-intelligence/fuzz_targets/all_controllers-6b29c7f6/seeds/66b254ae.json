@@ -1,0 +1,19 @@
+{
+  "name": "66b254ae",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/ChromeDevTools/network?network_num=%FUZZ%\u0026number=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "1537168870"
+      }
+    ]
+  }
+}

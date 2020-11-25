@@ -1,0 +1,19 @@
+{
+  "name": "82b04ba2",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/CrossSiteScriptingStored/stored-xss",
+        "headers": {
+        },
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "isFixed": false,
+        "webControllerId": "-1778541328"
+      }
+    ]
+  }
+}

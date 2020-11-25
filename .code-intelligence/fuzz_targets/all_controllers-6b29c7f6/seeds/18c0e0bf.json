@@ -1,0 +1,19 @@
+{
+  "name": "18c0e0bf",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/challenge/flag?flag=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "-1215144577"
+      }
+    ]
+  }
+}
