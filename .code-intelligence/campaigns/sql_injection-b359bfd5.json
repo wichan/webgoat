@@ -1,6 +1,6 @@
 {
   "name": "sql_injection-b359bfd5",
-  "displayName": "default_campaign",
+  "displayName": "SQL_injection",
   "maxRunTime": "1800s",
   "fuzzTargets": [
     "sql_injection-5b4b5092"

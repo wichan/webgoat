@@ -1,6 +1,6 @@
 {
   "name": "all_controllers-6b29c7f6",
-  "displayName": "all_controllers",
+  "displayName": "FuzzAllEndPoints",
   "javaWebApp": {
     "webApplication": {
       "applicationName": "StartWebGoat",

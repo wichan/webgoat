@@ -1,6 +1,6 @@
 {
   "name": "all_controllers-a2ec0e73",
-  "displayName": "all_controllers",
+  "displayName": "FuzzAllEndPoints",
   "maxRunTime": "1800s",
   "fuzzTargets": [
     "all_controllers-6b29c7f6"

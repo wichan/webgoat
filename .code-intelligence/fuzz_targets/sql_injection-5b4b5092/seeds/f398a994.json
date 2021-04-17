@@ -1,5 +1,19 @@
 {
   "name": "f398a994",
-  "fileName": ".code-intelligence/fuzz_targets/sql_injection-5b4b5092/seeds/f398a994",
-  "fileContent": null
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/challenge/5?username_login=%FUZZ%\u0026password_login=%FUZZ%",
+        "headers": {
+        },
+        "contentType": "TEXT_HTML",
+        "body": "",
+        "isFixed": false,
+        "webControllerId": "412316614"
+      }
+    ]
+  }
 }

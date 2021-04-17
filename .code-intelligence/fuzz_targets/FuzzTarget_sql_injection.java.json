@@ -1,7 +1,6 @@
 {
   "name": "sql_injection-5b4b5092",
-  "displayName": "sql_injection",
-  "path": "FuzzTarget_sql_injection.java",
+  "displayName": "SQL_injection",
   "javaWebApp": {
     "webApplication": {
       "applicationName": "StartWebGoat",
@@ -9,9 +8,6 @@
       "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
       "controllers": [
         "/challenge/5"
-      ],
-      "runArguments": [
-        ""
       ]
     },
     "exceptionPolicy": {

@@ -38,7 +38,12 @@ public class FuzzTarget_sql_injection {
         System.getProperties().put("logging.level.org.springframework", "error");
         System.getProperties().put("logging.level.org.springframework.web", "error");
         String[] springBootArgs = {};
-        StartWebGoat.main(springBootArgs);
+        try {
+            StartWebGoat.main(springBootArgs);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException("Failed to start application.");
+        }
         if (globalWebCtx == null) {
             throw new RuntimeException("Failed to run the @PostConstruct function.");
         }
@@ -48,8 +53,8 @@ public class FuzzTarget_sql_injection {
     public static void main(String[] fuzzerArgs) {
         String webControllerDBPath = null;
         for (String arg : fuzzerArgs) {
-            if (arg.startsWith("--web-controller-db=")) {
-                webControllerDBPath = arg.replace("--web-controller-db=", "");
+            if (arg.startsWith("--web_controller_db=")) {
+                webControllerDBPath = arg.replace("--web_controller_db=", "");
             }
         }
         fuzzerInitialize(fuzzerArgs);
@@ -71,11 +76,12 @@ public class FuzzTarget_sql_injection {
         }
     }
 
-    public static boolean fuzzerTestOneInput(byte[] input) throws Throwable {
+    public static void fuzzerTestOneInput(byte[] input) throws Throwable {
         if (fuzzWeb == null) {
-            System.err.println("ERROR: fuzzRest is not initialized yet!");
-            return false;
+            throw new  IllegalStateException("fuzzRest is not initialized yet!");
         }
-        return fuzzWeb.doRequest(input);
+        if (fuzzWeb.doRequest(input)) {
+            throw new IllegalStateException("Sending the request failed");
+        }
     }
 }
