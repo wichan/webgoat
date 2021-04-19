@@ -19,7 +19,7 @@ jobs:
         uses: CodeIntelligenceTesting/github-actions/start-fuzzing@v3
         with:
           ci_fuzz_api_token: ${{ secrets.CI_FUZZ_API_TOKEN }}
-          test_collection: "projects/webgoat-5c06903a/campaigns/all_controllers-a2ec0e73"
+          test_collection: "projects/organizations_82cc3b42e291d178_webgoat-5c06903a/campaigns/all_controllers-a2ec0e73"
           git_reference: ${{ github.sha }}
           fuzzing_server_address: ${{ env.FUZZING_SERVER_ADDRESS }}          
       - id: monitor-fuzzing
