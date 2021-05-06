@@ -1,0 +1,13 @@
+{
+  "name": "3b2f8f38",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/JWT/votings",
+        "webControllerId": "-264196793"
+      }
+    ]
+  }
+}

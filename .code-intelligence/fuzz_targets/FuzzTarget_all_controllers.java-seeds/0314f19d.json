@@ -1,0 +1,13 @@
+{
+  "name": "0314f19d",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/JWT/secret/gettoken",
+        "webControllerId": "-896536686"
+      }
+    ]
+  }
+}

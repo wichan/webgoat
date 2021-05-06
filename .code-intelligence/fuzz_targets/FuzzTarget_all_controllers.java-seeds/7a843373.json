@@ -1,0 +1,15 @@
+{
+  "name": "7a843373",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/csrf/feedback/message",
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "webControllerId": "1927963572"
+      }
+    ]
+  }
+}

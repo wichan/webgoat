@@ -3,7 +3,7 @@
   "displayName": "FuzzAllEndPoints",
   "maxRunTime": "1800s",
   "fuzzTargets": [
-    "all_controllers-6b29c7f6"
+    "LmNvZGUtaW50ZWxsaWdlbmNlL2Z1enpfdGFyZ2V0cy9GdXp6VGFyZ2V0X2FsbF9jb250cm9sbGVycy5qYXZh"
   ],
   "fuzzerRunConfigurations": [
     {
