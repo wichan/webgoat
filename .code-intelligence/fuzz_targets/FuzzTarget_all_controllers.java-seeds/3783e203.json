@@ -1,0 +1,13 @@
+{
+  "name": "3783e203",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/csrf/confirm-flag-1",
+        "webControllerId": "-490961783"
+      }
+    ]
+  }
+}

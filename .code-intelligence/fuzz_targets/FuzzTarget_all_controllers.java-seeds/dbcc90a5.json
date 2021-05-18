@@ -1,0 +1,13 @@
+{
+  "name": "dbcc90a5",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/SqlInjectionAdvanced/attack6b?userid_6b=%FUZZ%",
+        "webControllerId": "1321971989"
+      }
+    ]
+  }
+}

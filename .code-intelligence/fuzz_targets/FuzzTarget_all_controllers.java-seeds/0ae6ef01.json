@@ -1,0 +1,13 @@
+{
+  "name": "0ae6ef01",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/challenge/7?email=%FUZZ%",
+        "webControllerId": "-1189047637"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "c6101462",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/WebWolf/mail/send?email=%FUZZ%",
+        "webControllerId": "1363444525"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "8ae130ea",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/IDOR/profile/%FUZZ%",
+        "webControllerId": "1522975918"
+      }
+    ]
+  }
+}

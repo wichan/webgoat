@@ -3,7 +3,7 @@
   "displayName": "SQL_injection",
   "maxRunTime": "1800s",
   "fuzzTargets": [
-    "sql_injection-5b4b5092"
+    "LmNvZGUtaW50ZWxsaWdlbmNlL2Z1enpfdGFyZ2V0cy9GdXp6VGFyZ2V0X3NxbF9pbmplY3Rpb24uamF2YQ=="
   ],
   "fuzzerRunConfigurations": [
     {

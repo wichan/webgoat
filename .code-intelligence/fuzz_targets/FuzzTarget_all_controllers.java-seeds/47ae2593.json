@@ -1,0 +1,13 @@
+{
+  "name": "47ae2593",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/csrf/review",
+        "webControllerId": "495430094"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "90d672f9",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/labels.mvc?lang=%FUZZ%",
+        "webControllerId": "438602878"
+      }
+    ]
+  }
+}

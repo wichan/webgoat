@@ -1,0 +1,13 @@
+{
+  "name": "8c3f2959",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/JWT/votings/%FUZZ%",
+        "webControllerId": "-1346123261"
+      }
+    ]
+  }
+}

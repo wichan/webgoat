@@ -1,0 +1,13 @@
+{
+  "name": "c259ac93",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/reportcard.mvc",
+        "webControllerId": "-1152564207"
+      }
+    ]
+  }
+}

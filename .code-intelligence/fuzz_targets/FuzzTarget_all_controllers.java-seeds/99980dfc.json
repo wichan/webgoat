@@ -1,0 +1,13 @@
+{
+  "name": "99980dfc",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/PasswordReset/simple-mail?email=%FUZZ%\u0026password=%FUZZ%",
+        "webControllerId": "-621906059"
+      }
+    ]
+  }
+}

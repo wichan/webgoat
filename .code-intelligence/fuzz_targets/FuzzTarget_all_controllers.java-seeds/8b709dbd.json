@@ -1,0 +1,13 @@
+{
+  "name": "8b709dbd",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/PasswordReset/reset/change-password",
+        "webControllerId": "1725488001"
+      }
+    ]
+  }
+}

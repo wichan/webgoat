@@ -1,0 +1,13 @@
+{
+  "name": "b6bd8dac",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/lessonprogress.mvc",
+        "webControllerId": "827835366"
+      }
+    ]
+  }
+}
