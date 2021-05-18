@@ -1,0 +1,13 @@
+{
+  "name": "291ac325",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/SecurePasswords/assignment?password=%FUZZ%",
+        "webControllerId": "-796752950"
+      }
+    ]
+  }
+}

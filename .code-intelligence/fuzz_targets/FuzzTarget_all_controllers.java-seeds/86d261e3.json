@@ -1,0 +1,15 @@
+{
+  "name": "86d261e3",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/xxe/content-type",
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "webControllerId": "823992136"
+      }
+    ]
+  }
+}

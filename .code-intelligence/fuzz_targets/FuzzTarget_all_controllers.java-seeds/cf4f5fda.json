@@ -1,0 +1,13 @@
+{
+  "name": "cf4f5fda",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/service/restartlesson.mvc",
+        "webControllerId": "497021877"
+      }
+    ]
+  }
+}

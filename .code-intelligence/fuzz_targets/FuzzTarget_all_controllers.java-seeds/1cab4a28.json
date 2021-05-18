@@ -1,0 +1,13 @@
+{
+  "name": "1cab4a28",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/cia/quiz",
+        "webControllerId": "-1133655170"
+      }
+    ]
+  }
+}

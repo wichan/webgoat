@@ -1,0 +1,13 @@
+{
+  "name": "fbde52da",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/JWT/final/follow/%FUZZ%",
+        "webControllerId": "-2103135856"
+      }
+    ]
+  }
+}

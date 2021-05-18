@@ -1,0 +1,13 @@
+{
+  "name": "56eece2d",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/PasswordReset/reset/reset-password/%FUZZ%",
+        "webControllerId": "-33801622"
+      }
+    ]
+  }
+}

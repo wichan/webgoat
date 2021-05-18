@@ -1,0 +1,13 @@
+{
+  "name": "3ceb1b06",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "GET",
+        "uri": "/xxe/tmpdir",
+        "webControllerId": "1174576276"
+      }
+    ]
+  }
+}

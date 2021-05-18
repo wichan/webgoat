@@ -1,0 +1,13 @@
+{
+  "name": "cac87c0f",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/InsecureLogin/task?username=%FUZZ%\u0026password=%FUZZ%",
+        "webControllerId": "-1226668940"
+      }
+    ]
+  }
+}

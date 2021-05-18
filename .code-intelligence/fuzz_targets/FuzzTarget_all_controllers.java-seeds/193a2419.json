@@ -1,0 +1,15 @@
+{
+  "name": "193a2419",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/xxe/simple",
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "webControllerId": "197800058"
+      }
+    ]
+  }
+}

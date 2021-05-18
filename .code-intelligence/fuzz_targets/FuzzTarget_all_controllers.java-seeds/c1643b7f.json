@@ -1,0 +1,13 @@
+{
+  "name": "c1643b7f",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/JWT/final/delete?token=%FUZZ%",
+        "webControllerId": "835327198"
+      }
+    ]
+  }
+}

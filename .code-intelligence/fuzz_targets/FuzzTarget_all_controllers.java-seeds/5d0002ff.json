@@ -1,0 +1,13 @@
+{
+  "name": "5d0002ff",
+  "fileName": ".",
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/clientSideFiltering/getItForFree?checkoutCode=%FUZZ%",
+        "webControllerId": "533636868"
+      }
+    ]
+  }
+}
