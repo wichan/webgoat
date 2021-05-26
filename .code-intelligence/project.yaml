@@ -18,8 +18,8 @@ build_script: ".code-intelligence/build.sh"
 
 ## Paths to the fuzz tests to execute
 fuzz_tests:
-  - .code-intelligence/fuzz_targets/FuzzTarget_all_controllers.java
-  - .code-intelligence/fuzz_targets/FuzzTarget_sql_injection.java
+  - .code-intelligence/fuzz_targets/all_controllers.java
+  - .code-intelligence/fuzz_targets/sql_injection.java
 
 ## The sanitizers to use for the fuzz tests
 ## By default, only address sanitizer is used.
@@ -39,6 +39,5 @@ runtime: "30m0s"
 
 ## The number of parallel executions per fuzz test
 parallel_executions: 1
-
 ## If true, do not initialize the seed corpus of the fuzz tests.
 # skip_initial_corpus: false
