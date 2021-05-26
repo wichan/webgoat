@@ -37,7 +37,6 @@ web_app_target_configs:
 ## The run time after which the fuzz tests are cancelled and
 ## considered as having passed. Default value is 30 minutes.
 runtime: "30m0s"
-
 ## The number of parallel executions per fuzz test
 # parallel_executions: 1
 
