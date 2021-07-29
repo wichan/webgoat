@@ -1,0 +1,6 @@
+USER="user$RANDOM"
+PASS="pass$RANDOM"
+curl --max-redirs 0 -X POST 'http://172.17.0.4:8080/WebGoat/register.mvc' -X POST -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Content-Type: application/x-www-form-urlencoded' -H 'Origin: http://172.17.0.4:8080' -H 'Connection: keep-alive' -H 'Referer: http://172.17.0.4:8080/WebGoat/register.mvc' -H 'Upgrade-Insecure-Requests: 1' -H 'Sec-GPC: 1' --data-raw "username=$USER&password=$PASS&matchingPassword=$PASS&agree=agree" -c dupa
+
+cat dupa
+#curl 'http://172.17.0.4:8080/WebGoat/register.mvc' -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Content-Type: application/x-www-form-urlencoded' -H 'Origin: http://172.17.0.4:8080' -H 'Connection: keep-alive' -H 'Referer: http://172.17.0.4:8080/WebGoat/register.mvc' -H 'Upgrade-Insecure-Requests: 1' -H 'Sec-GPC: 1' --data-raw "username=$USER&password=$PASS&matchingPassword=$PASS&agree=agree" -w |grep SESSIONID |cut -d ' ' -f 2
