@@ -1,3 +1,7 @@
+description: >
+  WebGoat is a deliberately insecure web application maintained by OWASP
+  designed to teach web application security lessons.
+
 ## The name of the container image used for building the fuzz tests
 build_container: "cifuzz/builders:maven"
 
