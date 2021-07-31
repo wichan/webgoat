@@ -21,7 +21,6 @@ fuzz_tests:
 
 ## Paths to web app fuzz target configs
 web_app_target_configs:
-  - .code-intelligence/fuzz_targets/fuzz_test_1.yaml
   - .code-intelligence/fuzz_targets/all_endpoints.yaml
 
 ## The sanitizers to use for the fuzz tests
