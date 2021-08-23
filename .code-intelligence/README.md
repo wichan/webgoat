@@ -44,24 +44,12 @@ current corpus.
 ## Authenticated fuzzing
 
 In order to cover the web application properly, the fuzzer must authenticate to it.
-The most universal way to do this is using the headers script:
-[`.code-intelligence/fuzz_targets/all_endpoints_headers.sh`](https://github.com/ci-fuzz/webgoat/blob/out_of_process_fuzzing/.code-intelligence/fuzz_targets/all_endpoints_headers.sh).
+The easiest way to do this is using the initial requests file script:
+[`.code-intelligence/fuzz_targets/all_endpoints_headers.sh`](https://github.com/ci-fuzz/webgoat/blob/out_of_process_fuzzing/.code-intelligence/fuzz_targets/all_endpoints_initial_requests.http).
 
-The output of this shell script will be added to the HTTP headers of all requests 
-sent by CI Fuzz when running the all_endpoints fuzz test.
-
-The cURL commands were exported from a web browser developer console, based on
-the HTTP requests sent when creating a user and logging in to WebGoat.
+The cookies received in a response to these requests will be added to the HTTP
+headers of all requests sent by CI Fuzz when running the all_endpoints fuzz test.
 
 We are sending both the request that creates a user and the login request, so that
 we don't have to rely on this user existing or not existing when fuzzing starts.
-
-CURL stores cookies that it receives from WebGoat in a file (the -c option). Also,
-cURL output is redirected to /dev/null, so that it does not end up in the headers
-script's output.
-
-The JSESSIONID cookie header is then printed. After running this script, this is
-always an ID of a valid session, which the fuzzer can use to interact with WebGoat. 
-
-
 

@@ -1,4 +1,0 @@
-POST /WebGoat/JWT/quiz?question_0_solution=ee&question_1_solution=pp HTTP/1.1
-Host: 127.0.0.1:8080
-Jazzer-Internal-Controller-Id: 874558877
-

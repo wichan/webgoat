@@ -1,6 +1,6 @@
 {
   "name": "webgoat",
-  "javaCommand": "/home/webgoat/webgoat.jar --server.port=8080 --server.address=0.0.0.0",
+  "javaCommand": "webgoat.jar --webgoat.build.version=8.2.1 --server.address=0.0.0.0",
   "webControllerDb": {
     "webControllerInfos": [
       {
