@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 env:
-  FUZZING_SERVER_ADDRESS: 'grpc-app.code-intelligence.com:443:443'
+  FUZZING_SERVER_ADDRESS: 'app.code-intelligence.com:6773'
   WEB_APP_ADDRESS:  https://app.code-intelligence.com
 
 
