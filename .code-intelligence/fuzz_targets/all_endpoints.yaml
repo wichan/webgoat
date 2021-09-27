@@ -12,6 +12,7 @@ web_services:
 ## Base URL of the application under test
 #base_url: "http://172.17.0.3:8080"
 #base_url: "http://127.0.0.1:8080"
+base_url: http://webgoatfuzzing.azurewebsites.net:80
 
 ## Protocol used to communicate with the software under test. Valid values are "http" and "grpc".
 protocol: http
