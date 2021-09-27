@@ -1,0 +1,99 @@
+name: CI Fuzz
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+env:
+  FUZZING_SERVER_ADDRESS: 'app.code-intelligence.com:6773'
+  WEB_APP_ADDRESS:  https://app.code-intelligence.com
+
+
+
+jobs:
+  fuzz_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: setup Java 11
+        uses: actions/setup-java@v2
+        with:
+        # If your pom.xml <maven.compiler.source> version is not in 1.8.x,
+        # change the Java version to match the version in pom.xml <maven.compiler.source>
+          java-version: '11'
+          distribution: 'adopt'
+          cache: 'maven'
+
+      - name: Build with Maven
+        run: |
+            #set port 80, as Azure does not support 8080:
+            sed -i 's/8080/80/g' webgoat-container/src/main/resources/application-webgoat.properties
+            mvn clean package -DskipTests --batch-mode --file pom.xml
+
+      - name: Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Public IP
+        id: ip
+        uses: haythem/public-ip@v1.2
+
+      - name: Whitelist this runner's IP
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az webapp config access-restriction add -g CI-Fuzz -n webgoatfuzzing --rule-name githubactions --action Allow --ip-address ${{ steps.ip.outputs.ipv4 }} --priority 200
+           
+
+      - name: 'Deploy to Azure WebApp'
+        uses: azure/webapps-deploy@v2
+        with: 
+          app-name: webgoatfuzzing
+          package: ${{ github.workspace }}/webgoat-server/
+          startup-command: timeout 2400 java -javaagent:/home/site/wwwroot/fuzzing_agent_deploy.jar=tls=true,api_token=${{ secrets.CI_FUZZ_API_TOKEN }},instrumentation_includes="org.owasp.webgoat.**",fuzzing_server_host=app.code-intelligence.com,service_name=projects/organizations_89d295318b3fded6_webgoat_git-95e1f92d/web_services/webgoat -jar /home/site/wwwroot/target/webgoat-server-8.0.0-SNAPSHOT.jar --server.address=0.0.0.0
+
+      - id: start-fuzzing
+        name: Build and Instrument
+        uses: CodeIntelligenceTesting/github-actions/start-fuzzing@v3
+        with:
+          ci_fuzz_api_token: ${{ secrets.CI_FUZZ_API_TOKEN }}
+          project: "projects/organizations_89d295318b3fded6_webgoat_git-95e1f92d"
+          git_reference: ${{ github.sha }}
+          fuzzing_server_address: ${{ env.FUZZING_SERVER_ADDRESS }}
+      - id: monitor-fuzzing
+        name: Fuzzing
+        uses: CodeIntelligenceTesting/github-actions/monitor-fuzzing@v3
+        with:
+          ci_fuzz_api_token: ${{ secrets.CI_FUZZ_API_TOKEN }}
+          test_collection_run: ${{ steps.start-fuzzing.outputs.test_collection_run }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          pull_request_number: ${{ github.event.pull_request.number }}
+          owner: ${{ github.event.repository.owner.login }}
+          repository: ${{ github.event.repository.name }}
+          fuzzing_server_address: ${{ env.FUZZING_SERVER_ADDRESS }}
+          dashboard_address: ${{ env.WEB_APP_ADDRESS }}
+      - id: report-coverage
+        name: Report Coverage
+        uses: CodeIntelligenceTesting/github-actions/report-coverage@v3
+        if: ${{ github.event_name == 'pull_request' && (success() || failure()) }}
+        with:
+          ci_fuzz_api_token: ${{ secrets.CI_FUZZ_API_TOKEN }}
+          test_collection_run: ${{ steps.start-fuzzing.outputs.test_collection_run }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          pull_request_number: ${{ github.event.pull_request.number }}
+          owner: ${{ github.event.repository.owner.login }}
+          repository: ${{ github.event.repository.name }}
+          git_reference: ${{ github.sha }}
+          fuzzing_server_address: ${{ env.FUZZING_SERVER_ADDRESS }}
+          dashboard_address: ${{ env.WEB_APP_ADDRESS }}
+
+      - name: Remove runner IP whitelist entry
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az webapp config access-restriction remove -g CI-Fuzz -n webgoatfuzzing --rule-name githubactions
+          
