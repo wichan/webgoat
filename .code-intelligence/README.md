@@ -24,7 +24,8 @@ loops can be exploited to achieve a denial of service of the application.
 In case of Web Applications, CI Fuzz sends the fuzzing input in the form of
 HTTP requests. To gather information about program execution and detect vulnerabilities/bugs,
 it uses a Java agent, which inserts bytecode to the running application. This is called 
-Instrumentation.
+Instrumentation. The Java agent file is deployed together with the application, which has to be started
+with the "-javaagent" jvm command line argument.
 
 By sending unexpected inputs to the web application, fuzzing can trigger erroneous behaviour.
 In case of Java applications, by leveraging instrumentation, CI Fuzz detects and reports all
