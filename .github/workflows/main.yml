@@ -54,7 +54,7 @@ jobs:
         with: 
           app-name: webgoatfuzzing
           package: ${{ github.workspace }}/webgoat-server/
-          startup-command: timeout 2400 java -javaagent:/home/site/wwwroot/fuzzing_agent_deploy.jar=tls=true,api_token=${{ secrets.CI_FUZZ_API_TOKEN }},instrumentation_includes="org.owasp.webgoat.**",fuzzing_server_host=app.code-intelligence.com,service_name=projects/organizations_89d295318b3fded6_webgoat_git-95e1f92d/web_services/webgoat -jar /home/site/wwwroot/target/webgoat-server-8.0.0-SNAPSHOT.jar --server.address=0.0.0.0
+          startup-command: timeout 56000 java -javaagent:/home/site/wwwroot/fuzzing_agent_deploy.jar=tls=true,api_token=${{ secrets.CI_FUZZ_API_TOKEN }},instrumentation_includes="org.owasp.webgoat.**",fuzzing_server_host=app.code-intelligence.com,service_name=projects/organizations_89d295318b3fded6_webgoat_git-95e1f92d/web_services/webgoat -jar /home/site/wwwroot/target/webgoat-server-8.0.0-SNAPSHOT.jar --server.address=0.0.0.0
 
       - name: Remove runner IP whitelist entry
         uses: azure/CLI@v1
