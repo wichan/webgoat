@@ -17,10 +17,1436 @@
         "SPRING_BOOT",
         "SPRING"
       ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "StartWebGoat",
+      "package": "org.owasp.webgoat",
+      "artifact": "webgoat-server/target/webgoat-server-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
+    },
+    {
+      "applicationName": "WebWolf",
+      "package": "org.owasp.webwolf",
+      "artifact": "webwolf/target/webwolf-8.0.0-SNAPSHOT.jar",
+      "detectedFrameworks": [
+        "SPRING_BOOT",
+        "SPRING"
+      ]
     }
   ],
   "projectExceptionPolicy": {
     "policy": [
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 2
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "responseMatcher": "CODE_STARTS_WITH",
+          "code": 4
+        }
+      },
+      {
+        "enabled": true,
+        "responsePolicy": {
+          "code": 302
+        }
+      },
+      {
+        "enabled": true,
+        "exceptionPolicy": {
+          "Exception": "java.lang.IllegalArgumentException",
+          "exceptionStrategy": "STACKTRACE_CONTAINS",
+          "content": "org.springframework.web.util.UriComponentsBuilder"
+        }
+      },
       {
         "enabled": true,
         "responsePolicy": {
