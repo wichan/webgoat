@@ -6,8 +6,8 @@
 ## by removing the "#".
 
 description:
-  WebGoat is a deliberately insecure web application maintained by OWASP
-  designed to teach web application security lessons.
+  "WebGoat showcases fuzzing web services from auto-detected REST endpoints with many bugs from the OWASP Top 10 found: SQL injections, XSS, etc."
+
 ## The fuzz targets are built and run in Docker containers. This setting
 ## allows you to specify the Docker image that should be used for
 ## building this project. It must contain all the dependencies required
