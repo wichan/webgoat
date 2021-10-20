@@ -45,8 +45,8 @@ build_container: "cifuzz/builders:maven"
 
 ## Paths to web app fuzz target configs
 web_app_target_configs:
-  - .code-intelligence/fuzz_targets/*.yaml
-
+  #- .code-intelligence/fuzz_targets/*.yaml
+  - .code-intelligence/fuzz_targets/all_endpoints.yaml
 ## The sanitizers to use for the fuzz tests. Only applies to C/C++
 ## targets. Note that the Undefined Behavior Sanitizer (UBSan) is
 ## always used, regardless of this setting. By default, only
