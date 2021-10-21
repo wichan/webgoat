@@ -4,22 +4,22 @@
 
 WebGoat is a deliberately insecure web application maintained by OWASP designed to teach
 web application security lessons.
+It is a demonstration of common server-side application flaws and is
+intended to be used by people to learn about application security and penetration testing techniques.
 
-This program is a demonstration of common server-side application flaws. The exercises
-are intended to be used by people to learn about application security and penetration testing techniques.
+## The problem
 
-## What is fuzzing (in a nutshell)?
+Although this is an example application, the type of application, web application, is actually very common.
 
-Fuzzing is a dynamic code analysis technique that supplies pseudo-random inputs
-to a software-under-test (SUT), derives new inputs from the behaviour of the
-program (i.e. how inputs are processed), and monitors the SUT for bugs.
+Automatically testing a web service is very hard because of the following challenges:
 
-## How can fuzzing improve web application security
+* Bugs can be triggered by a combination of multiple requests, especially logging in before requests
+* A vast amount of possible failure cases (e.g., OWASP Top 10, XSS, SQL injections, insecure headers, out-of-memory errors, infinite loops)
+* Many possible entry points (each URL is triggering some functionality)
 
-As Webgoat is a Java Springboot web application, we are most interested in typical
-web application vulnerabilities, such as the OWASP TOP 10. As it is written in Java, we are also concerned with
-out of memories, infinite loops and logic bugs. Out of memories and infinite
-loops can be exploited to achieve a denial of service of the application.
+## The solution
+
+Fuzzing is a dynamic code analysis technique that supplies pseudo-random inputs to a software-under-test (SUT), derives new inputs from the behaviour of the program (i.e. how inputs are processed), and monitors the SUT for bugs.
 
 In case of Web Applications, CI Fuzz sends the fuzzing input in the form of
 HTTP requests. To gather information about program execution and detect vulnerabilities/bugs,
@@ -33,14 +33,10 @@ unhandled exceptions, which by itself can often point developers at bugs and vul
 There are also detectors for specific vulnerabilities, for example insecure deserialization,
 SQL and LDAP injections and others.
 
-For web application fuzzing, CI Fuzz also integrates OWASP ZAP (explained in more detail below)
-to detect web application misconfigurarions and injection vulnerabilities such as SQL injection
-or XSS by examining HTTP responses.
+## The setup
 
-Some vulnerabilities (like some SQL injections) can be found by both methods, while others can only
-be found by one of them.
 
-## Web application fuzzing setup
+### Web application fuzzing setup
 
 The most universal example of a web application fuzz test is the "all_endpoints" fuzz test.
 By dynamically analysing Springboot endpoints, CI Fuzz has created files with HTTP requests in
@@ -53,7 +49,7 @@ automatically, based on data collected during the analysis of Springboot endpoin
 fill them manually, which is worthwile if for example certain known strings in some fields result in different
 program execution, but cannot be automatically discovered by analysing the endpoints.
 
-## A note regarding corpus data
+### A note regarding corpus data
 
 For each fuzz test, a corpus of interesting inputs is built up.
 Over time, the fuzzer will add more and more inputs to this corpus, based on
@@ -61,11 +57,7 @@ coverage metrics such as newly-covered lines, statements or even values in an
 expression. The genetic algorithm is used to generate new inputs based on the
 current corpus.
 
-## Corpus and OWASP ZAP integration
-
-CI Fuzz runs OWASP ZAP active scan on all corpus inputs and reports OWASP ZAP findings alongside other findings.
-
-## Authenticated fuzzing
+### Authenticated fuzzing
 
 In order to cover the web application properly, the fuzzer must authenticate to it.
 The easiest way to do this is using the initial requests file script:
@@ -77,7 +69,7 @@ headers of all requests sent by CI Fuzz when running the all_endpoints fuzz test
 We are sending both the request that creates a user and the login request, so that
 we don't have to rely on this user existing or not existing when fuzzing starts.
 
-## Fuzzing in CI/CD
+### Fuzzing in CI/CD
 
 CI Fuzz allows you to configure your pipeline to automatically trigger the run of fuzz tests.
 Most of the fuzzing runs that you can inspect here were triggered automatically (e.g. by pull or merge request on the GitHub project).
@@ -94,6 +86,3 @@ later during a penetration test or (even worse) in production. This can help to 
 While these demo projects are configured to trigger fuzzing runs on merge or pull requests
 there are many other configuration options for integrating fuzz testing into your CI/CD pipeline
 for example you could also configure your CI/CD to run nightly fuzz tests.
- 
-
-
